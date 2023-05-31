@@ -1,0 +1,304 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.coder-img {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+  height:"500px"; width:"600px";
+}
+
+.teacher-img {
+  width: 50%;
+  margin-left: 30px;
+ 
+}
+
+.btn {
+  background: red;
+ 
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: red;
+   background-image: -webkit-linear-gradient(top, #30e3cb, #fc0707);
+
+  text-decoration: none;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+
+/* Apply a mobile-first approach */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.top-container {
+  text-align: center;
+  position: relative;
+}
+
+.top-cloud,
+.bottom-cloud {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+
+.title-text {
+  position: relative;
+  margin-top: 50px;
+  color: white;
+}
+
+.title-text h1 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.title-text h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.pro  {
+  color: #ffcc00;
+}
+.tu{
+  color: #ffcc00;
+}
+
+.mountain {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Main content styles */
+.middle-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.coding,
+.teaching {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.coding h3,
+.teaching h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.coding p,
+.teaching p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Contact section styles */
+.contact-me {
+  margin-top: 50px;
+}
+
+.contact-me h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-me h3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Footer styles */
+.footer-link {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media queries for responsive design */
+@media screen and (min-width: 600px) {
+  /* Adjustments for small screens */
+  .title-text {
+    margin-top: 100px;
+  }
+
+  .profile img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .middle-container {
+    padding: 40px;
+  }
+
+  .coding,
+  .teaching {
+    width: 48%;
+  }
+}
